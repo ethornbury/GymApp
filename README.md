@@ -21,11 +21,5 @@ Terminal commands
 	
 The 'rails routes' will show the routes available to you. 
 Change the root, go to config > routes.rb	
-    
-
-On cloning this repo, just run the following command to install all as already set up in the package.json file
-
-	$ npm install
-    
-Link to [Gearhost](http://gearhost.com) 
+ 
 
