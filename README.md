@@ -1,24 +1,31 @@
-# README
+Rails exmple
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This was done in Rails installed using [Bitname Ruby Stack](https://bitnami.com/stack/ruby/installer) 
 
-Things you may want to cover:
+Terminal commands
+    
+    $ rails new GymApp
+    
+    $ cd GymApp
+	
+	$ bundle install
+	
+	$ rails g scaffold User name:string email:string password:string dob:string tel_no:integer --no-stylesheets
 
-* Ruby version
+	$ rails g scaffold Activity name:string tutor:string --no-stylesheets
+	
+	$ rails db:migrate
+	
+	$ rails routes 
+	
+	
+The 'rails routes' will show the routes available to you. 
+Change the root, go to config > routes.rb	
+    
 
-* System dependencies
+On cloning this repo, just run the following command to install all as already set up in the package.json file
 
-* Configuration
+	$ npm install
+    
+Link to [Gearhost](http://gearhost.com) 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
