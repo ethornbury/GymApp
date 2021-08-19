@@ -28,7 +28,8 @@ To add another column to the User table
 
 This will generate an empty migration file in the db > migration folder that you can edit. 
 I added an admin field to the user table. The field is boolean and when a record is made its set by default to false. 
-See here for info on what you can do: [click here](https://guides.rubyonrails.org/active_record_migrations.html)
+See here for info on what you can do: [click here](https://guides.rubyonrails.org/active_record_migrations.html).
+
 Reminder to do the following again!
 
 	$ rails db:migrate
